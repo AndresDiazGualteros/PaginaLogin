@@ -31,8 +31,6 @@ function mostrar() {
 }
 
 document.getElementById("contraseña").addEventListener("mouseleave", ocultar)
-
-
 function ocultar() {
     document.getElementById("contraseña").type="password"
 
