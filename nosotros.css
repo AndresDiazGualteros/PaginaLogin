@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 223, 168);
+}
+/* nav */
+.nav{
+    background-color: rgb(54, 158, 232);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+p{
+    margin-right: 20px;
+}
+.nav>ul{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+/* Contenedor */
+.contenedorSection1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.Productos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.retrato{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+}
+.texto{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 700px;
+    height: 500px;
+    gap: 10px;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.productos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.Producto{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.producto1{
+    text-align: center;
+}
+.productoImagen1{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.producto2{
+    text-align: center;
+}
+.productoImagen2{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.producto3{
+    text-align: center;
+}
+.productoImagen3{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.producto4{
+    text-align: center;
+}
+.productoImagen4{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.ProductosImagenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.select{
+    width: 300px;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    background-color: rgb(54, 158, 232);
+    border-radius: 10px;
+}
+#select{
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid 1px;
+}
+.boton{
+    width: 100px;
+    height: 30px;
+    border: solid 1px ;
+    border-radius: 20px;
+    background-color: white;
+}
+.boton:hover{
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 10px black;
+}
+.contenedor2{
+    margin-bottom: 40px;
+}
+.footer{
+    width: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(54, 158, 232);
+}
+.Productos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Modal{
+    background-color: rgba(0, 0, 0, 0.541);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: -1200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modalInfo{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+}
+#productoEsco{
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+.grupoBoton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.TituloPedido{
+    margin-bottom: 40px;
+    font-size: 22px;
+    text-align: center;
+}
+.subTitulo{
+    padding-top: 10px;
+}
+.seleccionProducto{
+    width: 70%;
+    height: 60px;
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cancel{
+    background-color: red;
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+}
+.cancel:hover{
+    cursor: pointer;
+}
+.Aceptar{
+    background-color: green;
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+}
+.Aceptar:hover{
+    cursor: pointer;
+}
+.usuario{
+    display: flex;
+    margin-right: 20px;
+}
+@media (max-width: 768px) {
+    .contenedorSection1{
+        flex-wrap: wrap;
+    }
+    .imagen{
+        margin-top: 40px;
+    }
+    .texto{
+        height: fit-content;
+        padding: 30px;
+    }
+    .nav{
+        font-size: 13px;
+    }
+    
+}

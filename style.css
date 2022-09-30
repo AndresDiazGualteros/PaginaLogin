@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 223, 168);
+}
+/* nav */
+.nav{
+    background-color: rgb(54, 158, 232);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+p{
+    margin-right: 20px;
+}
+.nav>ul{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+.contendorGeneral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    height: 950px;
+}
+h1{
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.contenedor{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: rgb(54, 158, 232);
+    width: 400px;
+    height: 400px;
+    box-shadow: 5px 5px 40px black;
+}
+.usuarios{
+    margin-bottom: 40px;
+}
+
+#labelUsuario{
+    margin-right: 29px;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#Ingresar{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+}
+#Ingresar:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 10px black;
+}
+#mensaje{
+    margin-top: 20px;
+    text-align: center;
+}
+.caja{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    height: 25px;
+}
+#caja{
+    width: 20px;
+}
